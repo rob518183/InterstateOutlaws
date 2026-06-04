@@ -34,41 +34,46 @@ To start the game run outlaws.py or any "shortcut" to outlaws.py.
 When you start, you will be suspended in mid-air (perhaps slightly too high) for a short time, then dropped onto the map. 
 
 The controls are:
- w                       accelerate.
- s                       brake.
- a                       steer left.
- d                       steer right.
- space                   hand brake
- t                       target next opponent
- Numbers 1-0             Fire individual weapons
- l                       link together weapons of same type
- click on weapon in HUD  link / unlink weapon
- ctrl                    fire linked weapons
- left alt                start typing a message
- enter                   send message
- c                       cycles camera view
- h                       toggles HUD
- r                       removes vehicle from "stuck" condition
- escape                  quit menu
+
+| Button| output|
+|  --------  |  -------  |
+| w| accelerate|
+| s| brake|
+| a| steer left|
+|d|steer right|
+|space|hand brake|
+|t| target next opponent|
+| Numbers 1-0 |Fire individual weapons|
+|l|link together weapons of same type|
+|click on weapon in HUD| link / unlink weapon|
+|ctrl|fire linked weapons|
+|left alt|start typing a message|
+|enter|send message|
+|c|cycles camera view|
+|h|toggles HUD|
+|r|removes vehicle from "stuck" condition|
+|escape|quit menu|
 
 3.1 The server
 
 In order to start a lobby server, you can run the shortcut name 'IO Server' or execute outlaws-lobbyserver.py within the game's base folder. The settings for the server are stored in the file ioData/servers/celstart.cfg within the game's folder. The settings you will want to change are:
 
-Outlaws.LobbyServer.Name - This is the name of the server. It should be the first thing you should change.
-Outlaws.Server.MaxClients - This is the number of people allowed to enter your lobby.
-Outlaws.Server.MaxChildServers - The number of people allowed to host games on your lobby.
+Outlaws.LobbyServer.Name - This is the name of the server. It should be the first thing you should change.  
+Outlaws.Server.MaxClients - This is the number of people allowed to enter your lobby.  
+Outlaws.Server.MaxChildServers - The number of people allowed to host games on your lobby.  
 
 Once running, the lobby server will do two things. First, report to the IO master server so that clients know where to find it. Second, field requests from clients to join games. Games are handled by the user that "hosts" it and the lobby server simply reports the location of said games. This system is slightly inefficient, but we have plans to change it in the future.
 
 4.1 Credits
 
-Logan Jaybush........Team Lead  
-Chris Fraser.........Programming Lead  
-Brian Sims...........3D Artist  
-Mark Rademaker.......3D Artist  
-Jon De'Ath...........Information Technology  
-Tristan Richmond.....Public Relations  
+| Name              | Function                |
+|-------------------|-------------------------|
+| Logan Jaybush     | Team Lead               |
+| Chris Fraser      | Programming Lead        |
+| Brian Sims        | 3D Artist               |
+| Mark Rademaker    | 3D Artist               |
+| Jon De'Ath        | Information Technology  |
+| Tristan Richmond  | Public Relations        |
 
 The team would like to thank: Michael Alvey, Sam Goodwin, Tyler Gowans, Ryan Hollett, Vincent Knecht, Jonathan MacDonald, Alan Malnar, Pablo Martin, Daniel McClain, Aaron Pickett, Milos Rancic, Stewart Riddell, Jason Rushford, Jorrit Tyberghein, Australian National University, City of Prescott Arizona, City of Prescott Valley Arizona, Crystal Space Development Team, Embry-Riddle Aeronautical University, Yavapai County Arizona, our families, and the Interstate community.
 
